@@ -44,21 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\Desktop\oop\TwoZeroFourEight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\oop\TwoZeroFourEight.Designer.cs">
+      <DependentUpon>TwoZeroFourEight.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controller.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="View.cs" />
     <Compile Include="TwoZeroFourEightController.cs" />
-    <Compile Include="TwoZeroFourEightView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TwoZeroFourEightView.Designer.cs">
-      <DependentUpon>TwoZeroFourEightView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoZeroFourEightModel.cs" />
-    <EmbeddedResource Include="TwoZeroFourEightView.resx">
-      <DependentUpon>TwoZeroFourEightView.cs</DependentUpon>
+    <EmbeddedResource Include="..\..\..\Desktop\oop\TwoZeroFourEight.resx">
+      <DependentUpon>TwoZeroFourEight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
