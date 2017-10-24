@@ -44,11 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\Desktop\oop\TwoZeroFourEight.cs">
+    <Compile Include="..\..\..\Desktop\oop\TwoZeroFourEightView.cs">
+      <Link>TwoZeroFourEightView.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\..\Desktop\oop\TwoZeroFourEight.Designer.cs">
-      <DependentUpon>TwoZeroFourEight.cs</DependentUpon>
+    <Compile Include="..\..\..\Desktop\oop\TwoZeroFourEightView.Designer.cs">
+      <Link>TwoZeroFourEightView.Designer.cs</Link>
+      <DependentUpon>TwoZeroFourEightView.cs</DependentUpon>
     </Compile>
     <Compile Include="Controller.cs" />
     <Compile Include="Model.cs" />
@@ -57,8 +59,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoZeroFourEightModel.cs" />
-    <EmbeddedResource Include="..\..\..\Desktop\oop\TwoZeroFourEight.resx">
-      <DependentUpon>TwoZeroFourEight.cs</DependentUpon>
+    <EmbeddedResource Include="..\..\..\Desktop\oop\TwoZeroFourEightView.resx">
+      <Link>TwoZeroFourEightView.resx</Link>
+      <DependentUpon>TwoZeroFourEightView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
